@@ -1,0 +1,15 @@
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: medium;
+}
+h1{
+    background-color: lightskyblue;
+    text-align: center;
+    
+}
+
+h2{
+    color: cornflowerblue;
+}
