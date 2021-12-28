@@ -3,10 +3,13 @@ div:hover{
     border: 6px solid black;
     
 }
+div:active{
+    color: yellow;
+}
 #primeira{
     background-color: blanchedalmond;
     font-style: italic;
-}
+  }
 #segunda{
     background-color: blue;
 }
@@ -14,6 +17,7 @@ div:hover{
     background-color: cadetblue;
     height: 60px;
     font-style: italic;
+  
 }
 #escura{
     background-color: darkblue;
@@ -21,4 +25,5 @@ div:hover{
 #clara{
     background-color: cyan;
     font-style: italic;
+   
 }
