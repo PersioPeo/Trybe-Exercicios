@@ -21,9 +21,33 @@ li{
 .pink{
     background-color: pink;
 }
-#linguagens{
+#linguagens li:not(:nth-child(n + 4 )) {
     color: blue;
 }
+#aliados li a:hover {
+    font-weight: 600;
+}
+  
+#aliados li a[href*="stackoverflow"] {
+    color: orange;
+}  
+#aliados li a[href*="w3schools"] {
+    color: green;
+}  
+#aliados li a[href*="mozilla"] {
+    color: black;
+}  
+#aliados li a[href*="devdocs"] {
+    color: rgb(224, 224, 0);
+} 
+#aliados li a[href*="trybe"] {
+    color: green;
+}
+
+  
+
+
+    
 
 
 
