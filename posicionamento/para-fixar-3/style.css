@@ -1,0 +1,29 @@
+
+
+h1{
+    background-color: red;
+    font-size: 40px;
+    border: 1px solid black;
+}
+ol li { 
+    background-color: yellow;
+}
+ol li:nth-child(even) {
+    color: green;
+}
+ol li:nth-child(odd) {
+    text-transform: uppercase;
+}
+li{
+    font-size: 20px;
+    font-weight: 600;
+}
+.pink{
+    background-color: pink;
+}
+#linguagens{
+    color: blue;
+}
+
+
+
