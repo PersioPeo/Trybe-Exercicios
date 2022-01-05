@@ -75,7 +75,7 @@ MDN (preta), DevDocs (amarela), Trybe (verde).
  
 */
 #aliados li a:hover {
-    font-weight: 600;
+    font-weight: 600;   
 }  
 #aliados li a[href*="stackoverflow"] {
     color: orange;
