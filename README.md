@@ -1,2 +1,2 @@
-# Trybe-Exec-cios
+# Trybe-live-lectures
 Exercício do Curso
