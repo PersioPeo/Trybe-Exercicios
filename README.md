@@ -1,2 +1,2 @@
 # Trybe-live-lectures
-Exercício do Curso
+Exercícios estão nas branch.
