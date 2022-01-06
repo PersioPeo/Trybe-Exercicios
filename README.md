@@ -1,2 +1,2 @@
 # Trybe-Meu-Execícios
-Exercícios nas branchs
+Exercícios estão branchs
