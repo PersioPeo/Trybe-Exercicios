@@ -1,2 +1,2 @@
 # Trybe-Execícios
-Exercício do Curso
+Exercício nas branchs
