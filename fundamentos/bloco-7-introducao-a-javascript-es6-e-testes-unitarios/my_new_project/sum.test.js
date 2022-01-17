@@ -9,3 +9,7 @@ it('somando dois numeros negativos', () => {
 it('somando numero negativo com positivo', () => {
   expect(sum(2, -3)).toEqual(-1);  
 });
+
+it('Somando numero negativo com positivo', () =>{
+  expect(sum(-1, 4)).toEqual(3);
+})
