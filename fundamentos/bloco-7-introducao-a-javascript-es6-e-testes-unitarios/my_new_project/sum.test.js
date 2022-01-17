@@ -1,4 +1,4 @@
-const sum = (a, b) => a + b; // Aqui está a função.
+const sum = require('./sum'); // colocando dentro da variavel sum a função exportada do aquivo sum.js
 
 test('sums two values', () => { // Começando o teste.
   expect(sum(2, 3)).toEqual(5);
