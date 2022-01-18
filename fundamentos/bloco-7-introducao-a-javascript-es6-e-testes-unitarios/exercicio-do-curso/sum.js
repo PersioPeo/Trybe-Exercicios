@@ -1,5 +1,7 @@
-const sum = (a, b) => a + b;
-module.exports = sum;
+const sum = (a, b) => a + b; // função
+
+module.exports 
+
 
 
  
