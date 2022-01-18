@@ -1,6 +1,13 @@
-const sum = (a, b) => a + b; // função
+function sum  (a, b) {
+    if(typeof a !== 'number' || typeof b !== 'number') {
+        throw new Error('Só pode ser numero');
+    } 
+    return a + b
 
-module.exports 
+
+} 
+
+module.exports = sum; // exportando a função sum para outro aquivo para test.
 
 
 
