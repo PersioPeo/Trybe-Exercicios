@@ -1,5 +1,5 @@
 
-const sum = require('./sum'); // chamando a função que está no arquivo sum.js
+/*const sum = require('./sum'); // chamando a função que está no arquivo sum.js
 describe('Testando a função soma', () => {
     it('Testa a soma dos dois numero', () => { // testando
         expect(sum(4, 5)).toEqual(9); // retorno do teste
@@ -13,4 +13,4 @@ describe('Testando a função soma', () => {
 
     
 })
-    
+ */   
