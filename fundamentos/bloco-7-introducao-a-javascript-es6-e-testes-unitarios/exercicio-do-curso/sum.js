@@ -13,4 +13,4 @@ module.exports = sum; // exportando a função sum para outro aquivo para test.
 
  //estive aqui dnovo no
  //estive aqui também Pérsio.
- //estive novamente Cleiton
+ //estive novamente Cleiton.
