@@ -7,7 +7,8 @@ describe('Testando a função soma', () => {
         
     }); 
     it('Deve disparar um erro se for uma string', () => {
-        expect(sum(4, 5)).toEqual(9);
+        
+        expect(sum(4, '5')).toThorowError('parameters must be numbers');
     });
 
     

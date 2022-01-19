@@ -1,6 +1,6 @@
 // sum.js
 const sum =(a, b) =>  {
-    if (typeof a !== 'number' || typeof b !== 'number') {
+    if (typeof a !== 'number' || typeof b !== 'number') { // verificando se o numero foi digitado.
       throw new Error('parameters must be numbers');
     }
   
@@ -13,4 +13,4 @@ const sum =(a, b) =>  {
  //estive aqui dnovo no
  //estive aqui também Pérsio.
  //estive novamente Cleiton.
- // estive aqui Pérsio..
+ // estive aqui Pérsio.
