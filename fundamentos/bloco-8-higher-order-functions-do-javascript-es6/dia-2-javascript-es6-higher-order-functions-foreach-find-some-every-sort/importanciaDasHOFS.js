@@ -12,4 +12,16 @@ for(let i = 0; i < students.length; i +=1) {
         atual.approved = 'Reprovado!'
     }
 }
+//console.log(students);
+/*----------------------------------------------------------*/
+students.forEach((itemAtual) => {
+    if(itemAtual.grade >= 60) {
+        itemAtual.approved = 'Parabens!'
+    } else {
+        itemAtual.approved = 'Estude mais até aproxima!'
+    }
+})
+console.log(students);
+
+students.forEach((itemAtual) => itemAtual.grade -= 10);
 console.log(students);
