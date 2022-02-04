@@ -10,13 +10,13 @@ arrayOfValues.forEach((element) => console.log('Cada elemento do array:', elemen
 // Cada elemento do array: 0.25
 // Cada elemento do array: { comida: 'Chocolate' }
 
-const arrayOfValues2 = ['josé', 50, 0.25, { comida: 'Chocolate' }];
+/*const arrayOfValues2 = ['josé', 50, 0.25, { comida: 'Chocolate' }];
 arrayOfValues.forEach((element, index, array) => {
   console.log('Cada elemento do array:', element);
   console.log('Index, posição do elemento:', index);
   console.log('Array percorrido:', array);
 });
-
+*/
 // => ---------------
 //   Cada elemento do array: josé
 //   Index, posição do elemento: 0
@@ -33,4 +33,13 @@ arrayOfValues.forEach((element, index, array) => {
 //   Cada elemento do array: { comida: 'Chocolate' }
 //   Index, posição do elemento: 3
 //   Array percorrido: [ 'josé', 50, 0.25, { comida: 'Chocolate' } ]
+
+/*--------------------------------------------------------------*/
+
+/*const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+numbers.forEach((itemAtual) => console.log(itemAtual * 2));
+numbers.forEach((itemAtual) => console.log(itemAtual + 2));
+*/
+const names = ['Bianca', 'Camila', 'Fernando', 'Ana Roberta'];
+names.forEach((itemAtual) =>console.log(itemAtual.toLocaleUpperCase()));
 
