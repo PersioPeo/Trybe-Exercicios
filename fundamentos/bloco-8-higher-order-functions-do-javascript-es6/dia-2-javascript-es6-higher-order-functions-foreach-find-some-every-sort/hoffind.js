@@ -20,6 +20,18 @@ let numeroDivPor5;
     console.log(numeroDivPor5);*/
     
 
-    const numbers = [19, 21, 30, 3, 45, 22, 15];
-    let numeroDivPor2 = numbers.find((itemAtual) => itemAtual % 2 === 0);
-     console.log(numerodivPor2);
+    //const numbers = [19, 21, 30, 3, 45, 22, 15];
+    //let numeroDivPor2 = numbers.find((itemAtual) => itemAtual % 2 === 0);
+    // console.log(numerodivPor2);
+
+    /*
+    2 - Utilize o find para encontrar o primeiro nome com cinco letras, caso ele exista: 
+    */ 
+    const names = ['João', 'Irene', 'Fernando', 'Maria'];
+
+    const findNameWithFiveLetters = () => {
+      // Adicione seu código aqui:
+     let primeiroCom5 = names.find((itemAtual) => itemAtual.length === 5); 
+     console.log(primeiroCom5);
+    }
+    findNameWithFiveLetters();
