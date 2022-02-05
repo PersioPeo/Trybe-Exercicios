@@ -11,12 +11,15 @@ let numeroDivPor5;
             break;
         }       
     }
-    console.log(numeroDivPor5);
+   // console.log(numeroDivPor5);
 
     /*Agora a mesma coisa usando o array.find*/
-    numeroDivPor5 = numbers.find((itemAtual) => itemAtual%5 === 0);
+   /* numeroDivPor5 = numbers.find((itemAtual) => itemAtual%5 === 0);
     console.log(numeroDivPor5);
     numeroDivPor5 = numbers.find((itemAtual) => itemAtual > 30);
-    console.log(numeroDivPor5);
+    console.log(numeroDivPor5);*/
     
-    
+
+    const numbers = [19, 21, 30, 3, 45, 22, 15];
+    let numeroDivPor2 = numbers.find((itemAtual) => itemAtual % 2 === 0);
+     console.log(numerodivPor2);

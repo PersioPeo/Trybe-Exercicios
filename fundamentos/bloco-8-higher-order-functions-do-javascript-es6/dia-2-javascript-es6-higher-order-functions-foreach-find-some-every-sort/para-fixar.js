@@ -7,6 +7,7 @@ const emailListInData = [
     'paulo@email.com',
     'anaroberta@email.com',
     'fabiano@email.com',
+    'persio@email.com',
   ];
   
   const showEmailList = (email) => {
