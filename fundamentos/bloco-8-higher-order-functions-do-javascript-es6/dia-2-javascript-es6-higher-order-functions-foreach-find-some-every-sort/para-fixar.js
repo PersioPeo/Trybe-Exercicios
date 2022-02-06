@@ -11,11 +11,20 @@ const emailListInData = [
   ];
   
   const showEmailList = (email) => {
-    console.log(`O email ${email} esta cadastrado em nosso banco de dados!`);
+    const div = document.querySelector('#email-list');
+    div.innerHTML = '';
+    email.forEach(element => {
+      const p = document.createElement('p');
+      p.innerHTML = `${element} : enviado com sucesso!`;
+      div.appendChild(p);    
+    });
+      
   };
   
+  const btnFilter = document.querySelector('#btn-filter');
+  btnFilter.addEventListener('click',() => showEmailList(emailListInData));
+
   // Adicione seu código aqui
-  emailListInData.forEach(showEmailList)
       
   
   
