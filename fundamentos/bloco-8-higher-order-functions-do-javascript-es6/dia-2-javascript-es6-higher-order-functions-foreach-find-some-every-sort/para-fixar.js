@@ -7,7 +7,7 @@ const emailListInData = [
     'paulo@email.com',
     'anaroberta@email.com',
     'fabiano@email.com',
-    'persio@email.com',
+    'persio@email.com'
   ];
   
   const showEmailList = (email) => {
@@ -15,7 +15,7 @@ const emailListInData = [
   };
   
   // Adicione seu código aqui
-  emailListInData.forEach((email) => console.log(`O email ${email} esta cadastrado em nosso banco de dados!`));
+  emailListInData.forEach(showEmailList)
       
   
   
