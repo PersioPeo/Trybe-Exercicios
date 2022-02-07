@@ -20,11 +20,11 @@ const emailListInData = [
     });
       
   };
-  
+  // Adicione seu código aqui
   const btnFilter = document.querySelector('#btn-filter');
   btnFilter.addEventListener('click',() => showEmailList(emailListInData));
 
-  // Adicione seu código aqui
+  
       
   
   
