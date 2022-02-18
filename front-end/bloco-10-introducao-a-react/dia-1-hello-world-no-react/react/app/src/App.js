@@ -1,15 +1,12 @@
 import React from 'react';
+import logo from './logo.svg';
 import './App.css';
+import Component from './Component'
 
-const nome = 'Jorge Maravilha';
-const element = <h1>Hello, {nome}</h1>;
-
-function App () {
+function App() {
   return (
-    <div>
-    {element}
-    </div>
-  )
+    <Component />
+  );
 }
 
 export default App;
