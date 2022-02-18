@@ -1,15 +1,19 @@
 import React from 'react';
-import './App.css';
-import Futebol from './componets/Futebol';
+import Titulo from './componets/Titulo';
+import Cards from './componets/Cards';
+import './App.css'; 
 
 function App() {
   return (
-  <>  
-   <Futebol time = 'Bahia'/>
-   <Futebol time = 'Corinthians'/>
-   <Futebol time = 'Vitoria'/>
-   <Futebol time = 'São Paulo'/>
-
+  <> 
+  <main className= 'container border border-primary'>
+    <Titulo />
+    <div id='id-cards'>
+        <Cards />
+        <Cards />
+        <Cards />
+    </div>
+  </main>
   </> 
   );
 }
