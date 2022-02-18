@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Component from './Component'
+import Ola from '../src/componets/Ola';
 
 function App() {
   return (
-    <Component />
+   <Ola />
   );
 }
 
