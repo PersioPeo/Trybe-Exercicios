@@ -1,9 +1,15 @@
 #id-cards {
     display: flex;
     justify-content: space-around;
+    border : solid 1px;
+    border-radius: 5%;
+    width: 400px;
 }
 #id-pokemons {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+h1{
+    text-align: center;
 }

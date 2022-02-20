@@ -7,10 +7,9 @@ function App() {
   return (
   <> 
   <main className= 'container border border-primary'>
-    <Titulo />
-    <div id='id-cards'>
-        <Cards />        
-    </div>
+    <Titulo />    
+    <Cards />        
+    
   </main>
   </> 
   );
