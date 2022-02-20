@@ -9,9 +9,7 @@ function App() {
   <main className= 'container border border-primary'>
     <Titulo />
     <div id='id-cards'>
-        <Cards />
-        <Cards />
-        <Cards />
+        <Cards />        
     </div>
   </main>
   </> 
