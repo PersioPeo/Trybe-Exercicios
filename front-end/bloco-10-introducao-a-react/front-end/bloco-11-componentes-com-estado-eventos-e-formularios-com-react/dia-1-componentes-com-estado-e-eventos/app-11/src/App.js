@@ -1,10 +1,8 @@
-import './App.css';
-import FunctionInClass from './exe-11.js/FunctionInClass';
-
+import This from './exe-11.js/This';
 function App() {  
   return (
     <div className="App">      
-      <FunctionInClass />
+      <This />
     </div>
   );
 }
