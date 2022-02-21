@@ -1,10 +1,10 @@
 import './App.css';
-import ParaFixar from './exe-11.js/ParaFixar';
+import FunctionInClass from './exe-11.js/FunctionInClass';
 
 function App() {  
   return (
     <div className="App">      
-      <ParaFixar  />
+      <FunctionInClass />
     </div>
   );
 }
