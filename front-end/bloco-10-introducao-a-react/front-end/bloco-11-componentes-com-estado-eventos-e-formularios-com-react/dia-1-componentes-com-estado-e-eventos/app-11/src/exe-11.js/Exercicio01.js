@@ -1,7 +1,7 @@
 import React from 'react';
 
 function handleClick() {
-    alert('Clicou no botão!')
+   console.log('Clicou no botão!');
   }
 
 class Exercicio01 extends React.Component {

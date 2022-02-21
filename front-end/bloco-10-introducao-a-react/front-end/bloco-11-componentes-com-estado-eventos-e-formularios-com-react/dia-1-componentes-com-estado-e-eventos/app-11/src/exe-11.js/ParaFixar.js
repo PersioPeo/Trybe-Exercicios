@@ -5,14 +5,28 @@ import React from 'react';
 
 
 
-function handleClick() {
-    alert('Novo Botaõ!')
+function handleClickUm() {
+    alert('Novo !');
+  }
+
+function handleClickDois() {
+    alert('outro Botão!');
+  }
+
+function handleClickTres() {
+    alert('Mais um Botão!');
   }
 
 class ParaFixar extends React.Component {
     render() {       
 
-        return <button onClick={handleClick}>Meu botão</button>        
+        return(   
+            <div>     
+         <button onClick={handleClickUm}>Meu botão 01</button> 
+         <button onClick={handleClickDois}>Meu botão 02</button> 
+         <button onClick={handleClickTres}>Meu botão 03</button> 
+         </div> 
+        )      
     }
 }
 export default ParaFixar;
