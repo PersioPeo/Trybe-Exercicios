@@ -1,8 +1,9 @@
-import This from './exe-11.js/This';
+import MudaEstado from "./exe-11/MudaEstado";
+
 function App() {  
   return (
     <div className="App">      
-      <This />
+      <MudaEstado />
     </div>
   );
 }
