@@ -1,6 +1,6 @@
 import React from "react";    
   
-
+const tarefas = ['Acorda', 'Escovar o dente', 'Tomar café', 'Estudar', 'Almoçar', 'Dormir'];
  class Tarefas extends React.Component{
      constructor() {
          super()
@@ -10,9 +10,7 @@ import React from "react";
     Task  (value) {
      return <li>{value}</li>
     }
-      render() {
-
-        const tarefas = ['Acorda', 'Escovar o dente', 'Tomar café', 'Estudar', 'Almoçar', 'Dormir'];
+      render() {        
           return(
             <ul>{tarefas.map((tarefa) => this.Task(tarefa))}</ul>
           )
