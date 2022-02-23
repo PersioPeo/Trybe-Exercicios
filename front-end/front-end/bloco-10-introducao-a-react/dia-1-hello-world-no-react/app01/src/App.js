@@ -1,9 +1,9 @@
-
+import Tarefas from "./exer01/Tarefas";
 
 function App() {
   return (
     <div className="App">
-      deu certo
+      <Tarefas />
     </div>
   );
 }
