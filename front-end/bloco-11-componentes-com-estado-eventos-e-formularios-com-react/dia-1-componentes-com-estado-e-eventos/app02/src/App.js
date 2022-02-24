@@ -1,12 +1,10 @@
 import './App.css';
-import BtnClick from './exercicio02/BtnClick';
-import BtnClick02 from './exercicio02/BtnClick02';
+import EstEvent from './exercicio02/EstEvent';
 
 function App() {
   return (
     <div className="App">
-      <BtnClick />
-      <BtnClick02 />
+      <EstEvent />
     </div>
   );
 }
