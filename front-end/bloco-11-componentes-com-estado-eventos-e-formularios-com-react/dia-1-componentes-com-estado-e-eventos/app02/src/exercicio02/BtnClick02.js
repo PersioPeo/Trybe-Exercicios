@@ -7,13 +7,13 @@ import React from 'react';
 class BtnClick02 extends React.Component {
 
 handleClick01 = () => {
-    alert('Clicou no botão 01!')
+    console.log('Clicou no botão 01!')
   }
   handleClick02 = () => {
-    alert('Clicou no botão 02!')
+    console.log('Clicou no botão 02!')
   }
   handleClick03 = () => {
-    alert('Clicou no botão 03!')
+    console.log('Clicou no botão 03!')
   }
   
 

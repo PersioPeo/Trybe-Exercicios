@@ -16,7 +16,7 @@ class BtnClick extends React.Component {
   }
 handleClick() {
     
-    alert('Clicou no botão!')
+    console.log('Clicou no botão!')
   }
   render() {
       console.log(this);
