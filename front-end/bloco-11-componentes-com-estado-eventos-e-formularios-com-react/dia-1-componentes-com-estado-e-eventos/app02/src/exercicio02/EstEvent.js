@@ -13,14 +13,17 @@ class EstEvent extends React.Component {
         } // fim do obj
     }// fim do constructor
     mudaEstado = () => {
-        this.setState({
-            numeroDeCliques: 1
-        })
+        /* Passando uma callback à função setState, que recebe de parâmetros
+    o estado anterior e as props do componente, você garante que as atualizações
+    do estado acontecerão uma depois da outra! */
+        this.setState((estadoAnterio, _props)=>({
+            numeroDeCliques: estadoAnterio.numeroDeCliques +1 
+        }))
     }// fim da função mudaEstado
 
     render () {
         return (
-            <button onClick={this.mudaEstado}>{this.state.numeroDeCliques}</button>
+            <button onClick={this.mudaEstado}>Numero de Clicks {this.state.numeroDeCliques}</button>
         )
     } // fim do render
 } // fim EstEvent
