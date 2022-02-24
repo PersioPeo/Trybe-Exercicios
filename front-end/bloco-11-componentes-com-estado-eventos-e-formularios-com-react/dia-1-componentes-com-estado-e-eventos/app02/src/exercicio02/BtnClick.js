@@ -10,10 +10,16 @@ class BtnClick extends React.Component {
   /* Repare que, diferentemente do HTML, no
   JSX você associa uma função a um evento
   passando a própria função entre chaves `{}` */
-handleClick = () => {
+  constructor() {
+      super()
+      this.handleClick = this.handleClick.bind(this);
+  }
+handleClick() {
+    
     alert('Clicou no botão!')
   }
   render() {
+      console.log(this);
     return <button onClick={this.handleClick}>Botão</button>
   }
 }
