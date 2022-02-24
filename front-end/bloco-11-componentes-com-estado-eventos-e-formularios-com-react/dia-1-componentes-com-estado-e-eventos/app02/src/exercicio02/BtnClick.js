@@ -4,16 +4,17 @@ import React from 'react';
 não é a maneira correta de se criar eventos
 em React! A função se refere ao componente,
 então deve ser parte de sua classe! */
-function handleClick() {
-  alert('Clicou no botão!')
-}
+
 
 class BtnClick extends React.Component {
   /* Repare que, diferentemente do HTML, no
   JSX você associa uma função a um evento
   passando a própria função entre chaves `{}` */
+handleClick = () => {
+    alert('Clicou no botão!')
+  }
   render() {
-    return <button onClick={handleClick}>Meu botão</button>
+    return <button onClick={this.handleClick}>Meu botão</button>
   }
 }
 
