@@ -14,7 +14,7 @@ handleClick = () => {
     alert('Clicou no botão!')
   }
   render() {
-    return <button onClick={this.handleClick}>Meu botão</button>
+    return <button onClick={this.handleClick}>Botão</button>
   }
 }
 
