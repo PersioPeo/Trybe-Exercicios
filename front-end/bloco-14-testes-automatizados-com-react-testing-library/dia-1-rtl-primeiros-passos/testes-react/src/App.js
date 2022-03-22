@@ -9,6 +9,7 @@ class App extends React.Component {
           Email
           <input id="id-email" type="email" />
         </label>
+        <input id="btn-send" type="button" value="Enviar" />
       </div>
     );
   }

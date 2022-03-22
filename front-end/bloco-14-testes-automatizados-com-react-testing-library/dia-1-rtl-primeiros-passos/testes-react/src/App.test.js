@@ -9,3 +9,14 @@ test('Verificando se existe o campo Email.', () => {
   expect(inputEmail).toBeInTheDocument();
   expect(inputEmail).toHaveProperty('type', 'email');
 });
+test('Verificando se existe o campo Enviar', () => {
+  render(<App />);
+  const button = screen.getByRole('button');
+  expect(button).toBeInTheDocument(); 
+
+});
+test('Verificando se existe um botão', () => {
+  render(<App />);
+  const btn = screen.getByRole('button', { name: /enviar/i })
+  expect(btn).toBeInTheDocument();
+});
